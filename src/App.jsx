@@ -1,6 +1,7 @@
 import { useState , useEffect } from 'react'
 import ArtGallery from './components/ArtGallery';
 import ArtPieceDetails from './components/ArtPieceDetails';
+import Form from './components/Form';
 
 import './App.css'
 
@@ -19,8 +20,7 @@ function App() {
   return (
     <>
       <h1>Art Gallery of Chicago</h1>
-      <ArtGallery />
-      <ArtPieceDetails />
+      <Form />
     </>
   )
 }
